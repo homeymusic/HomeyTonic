@@ -39,5 +39,10 @@ public struct PitchColor {
         [#colorLiteral(red: 0.7362077236, green: 0.8792037368, blue: 0.2233240306, alpha: 1), #colorLiteral(red: 0.09165825695, green: 0.5614706874, blue: 0.1980602741, alpha: 1), #colorLiteral(red: 0.1076945439, green: 0.5611609817, blue: 0.5010221004, alpha: 1), #colorLiteral(red: 0.1081418023, green: 0.05353103578, blue: 0.5072774887, alpha: 1), #colorLiteral(red: 0.4977235794, green: 0.02578645572, blue: 0.4828269482, alpha: 1), #colorLiteral(red: 0.8373426795, green: 0.07359044999, blue: 0.5274857879, alpha: 1), #colorLiteral(red: 0.4373093247, green: 0.04991041869, blue: 0.2720754147, alpha: 1), #colorLiteral(red: 0.6288832426, green: 0.04795408994, blue: 0.03198715672, alpha: 1), #colorLiteral(red: 0.9820852876, green: 0.03855920956, blue: 0.03907435015, alpha: 1), #colorLiteral(red: 0.965927422, green: 0.4972035289, blue: 0.06009680778, alpha: 1), #colorLiteral(red: 0.9260447621, green: 0.9420893192, blue: 0.531943202, alpha: 1), #colorLiteral(red: 0.9519914985, green: 0.9535178542, blue: 0.221549809, alpha: 1)]
     }
 
+    /// Brian Mulloy 2023, International Conference on Music Perception and Cognition (ICMPC)
+    public static var homey: [CGColor] {
+        [#colorLiteral(red: 0.4, green: 0.2666666667, blue: 0.2, alpha: 1), #colorLiteral(red: 0.5411764706, green: 0.7725490196, blue: 1, alpha: 1), #colorLiteral(red: 1, green: 0.6901960784, blue: 0, alpha: 1), #colorLiteral(red: 0.5411764706, green: 0.7725490196, blue: 1, alpha: 1), #colorLiteral(red: 1, green: 0.6901960784, blue: 0, alpha: 1), #colorLiteral(red: 0.9529411765, green: 0.8666666667, blue: 0.6705882353, alpha: 1), #colorLiteral(red: 1, green: 0.3333333333, blue: 0, alpha: 1), #colorLiteral(red: 0.9529411765, green: 0.8666666667, blue: 0.6705882353, alpha: 1), #colorLiteral(red: 0.5411764706, green: 0.7725490196, blue: 1, alpha: 1), #colorLiteral(red: 1, green: 0.6901960784, blue: 0, alpha: 1), #colorLiteral(red: 0.5411764706, green: 0.7725490196, blue: 1, alpha: 1), #colorLiteral(red: 1, green: 0.6901960784, blue: 0, alpha: 1)]
+    }
+
 }
 #endif
