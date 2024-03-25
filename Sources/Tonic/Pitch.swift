@@ -83,6 +83,12 @@ public struct Pitch: Equatable, Hashable, Codable {
         midiNoteNumber - next.midiNoteNumber
     }
 
+    /// Returns the interval class between Pitches in integer notation.
+    /// - Parameter to: Pitch to which you want to know the interval class
+    public func intervalClass(to next: Pitch) -> Int8 {
+        modulo(semitones(to: next), 12)
+    }
+
     /// Equivalence classes of pitches modulo octave.
     public var pitchClass: Int8 {
         midiNoteNumber % 12
@@ -117,4 +123,10 @@ extension Pitch: Strideable {
     public func advanced(by n: Int8) -> Pitch {
         Pitch(midiNoteNumber + n)
     }
+}
+
+func modulo(_ a: Int8, _ n: Int8) -> Int8 {
+    precondition(n > 0, "modulus must be positive")
+    let r = a % n
+    return r >= 0 ? r : r + n
 }
