@@ -80,7 +80,7 @@ public struct Pitch: Equatable, Hashable, Codable {
     /// Returns the distance between Pitches in semitones.
     /// - Parameter to: Pitch to which you want to know the distance
     public func semitones(to next: Pitch) -> Int8 {
-        abs(midiNoteNumber - next.midiNoteNumber)
+        midiNoteNumber - next.midiNoteNumber
     }
 
     /// Equivalence classes of pitches modulo octave.
