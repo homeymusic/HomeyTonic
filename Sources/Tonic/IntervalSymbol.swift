@@ -2,6 +2,8 @@
 
 import SwiftUI
 
+let goldenRatio: CGFloat = (1.0 + sqrt(5)) / 2
+
 public struct IntervalSymbol {
     
     /// Brian McAuliff Mulloy 2023, International Conference on Music Perception and Cognition (ICMPC)
@@ -9,6 +11,17 @@ public struct IntervalSymbol {
         [NitterHouse(), Circle(), Circle(), NitterDiamond(), NitterDiamond(), NitterTent(), Circle(), NitterTent(), NitterDiamond(), NitterDiamond(), Circle(), Circle()]
     }
     
+}
+
+public struct IntervalSymbolSize {
+    public static var homey: [CGFloat] {
+        let home = -1.9
+        let tent = -2.1
+        let diamond = -2.3
+        let circle = -2.5
+        
+        return [pow(goldenRatio, home), pow(goldenRatio, circle), pow(goldenRatio, circle), pow(goldenRatio, diamond), pow(goldenRatio, diamond), pow(goldenRatio, tent), pow(goldenRatio, circle), pow(goldenRatio, tent), pow(goldenRatio, diamond), pow(goldenRatio, diamond), pow(goldenRatio, circle), pow(goldenRatio, circle)]
+    }
 }
 
 struct NitterHouse: Shape {
