@@ -15,12 +15,12 @@ public struct IntervalSymbol {
 
 public struct IntervalSymbolSize {
     public static var homey: [CGFloat] {
-        let home = -1.9
-        let tent = -2.1
-        let diamond = -2.3
-        let circle = -2.5
-        
-        return [pow(goldenRatio, home), pow(goldenRatio, circle), pow(goldenRatio, circle), pow(goldenRatio, diamond), pow(goldenRatio, diamond), pow(goldenRatio, tent), pow(goldenRatio, circle), pow(goldenRatio, tent), pow(goldenRatio, diamond), pow(goldenRatio, diamond), pow(goldenRatio, circle), pow(goldenRatio, circle)]
+        let coefficient = 0.0225
+        let home        = coefficient * 14
+        let tent        = coefficient * 13
+        let diamond     = coefficient * 12
+        let circle      = coefficient * 10
+        return [home, circle, circle, diamond, diamond, tent, circle, tent, diamond, diamond, circle, circle]
     }
 }
 
