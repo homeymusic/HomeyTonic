@@ -15,9 +15,5 @@ public struct IntervalColor {
         [#colorLiteral(red: 0.4, green: 0.2666666667, blue: 0.2, alpha: 1), #colorLiteral(red: 0.4, green: 0.2666666667, blue: 0.2, alpha: 1), #colorLiteral(red: 0.4, green: 0.2666666667, blue: 0.2, alpha: 1), #colorLiteral(red: 0.4, green: 0.2666666667, blue: 0.2, alpha: 1), #colorLiteral(red: 0.4, green: 0.2666666667, blue: 0.2, alpha: 1), #colorLiteral(red: 0.4, green: 0.2666666667, blue: 0.2, alpha: 1), #colorLiteral(red: 0.4, green: 0.2666666667, blue: 0.2, alpha: 1), #colorLiteral(red: 0.4, green: 0.2666666667, blue: 0.2, alpha: 1), #colorLiteral(red: 0.4, green: 0.2666666667, blue: 0.2, alpha: 1), #colorLiteral(red: 0.4, green: 0.2666666667, blue: 0.2, alpha: 1), #colorLiteral(red: 0.4, green: 0.2666666667, blue: 0.2, alpha: 1), #colorLiteral(red: 0.4, green: 0.2666666667, blue: 0.2, alpha: 1)]
     }
     
-    public static var homeySubtleComplement: [CGColor] {
-        [#colorLiteral(red: 1, green: 0.3333333333, blue: 0, alpha: 1), #colorLiteral(red: 0.5411764706, green: 0.7725490196, blue: 1, alpha: 1), #colorLiteral(red: 1, green: 0.6901960784, blue: 0, alpha: 1), #colorLiteral(red: 0.5411764706, green: 0.7725490196, blue: 1, alpha: 1), #colorLiteral(red: 1, green: 0.6901960784, blue: 0, alpha: 1), #colorLiteral(red: 0.9529411765, green: 0.8666666667, blue: 0.6705882353, alpha: 1), #colorLiteral(red: 0.4, green: 0.2666666667, blue: 0.2, alpha: 1), #colorLiteral(red: 0.9529411765, green: 0.8666666667, blue: 0.6705882353, alpha: 1), #colorLiteral(red: 0.5411764706, green: 0.7725490196, blue: 1, alpha: 1), #colorLiteral(red: 1, green: 0.6901960784, blue: 0, alpha: 1), #colorLiteral(red: 0.5411764706, green: 0.7725490196, blue: 1, alpha: 1), #colorLiteral(red: 1, green: 0.6901960784, blue: 0, alpha: 1)]
-    }
-    
 }
 #endif
