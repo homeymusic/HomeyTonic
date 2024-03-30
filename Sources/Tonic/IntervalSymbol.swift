@@ -16,8 +16,8 @@ public struct IntervalSymbol {
 public struct IntervalSymbolSize {
     public static var homey: [CGFloat] {
         let coefficient = 0.0225
-        let home        = coefficient * 14
-        let tent        = coefficient * 13
+        let home        = coefficient * 16
+        let tent        = coefficient * 14
         let diamond     = coefficient * 12
         let circle      = coefficient * 10
         return [home, circle, circle, diamond, diamond, tent, circle, tent, diamond, diamond, circle, circle]
